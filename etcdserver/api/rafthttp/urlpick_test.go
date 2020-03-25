@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestURLPickerPickTwice tests that pick returns a possible url,

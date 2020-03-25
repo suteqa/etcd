@@ -17,7 +17,7 @@ package adt_test
 import (
 	"fmt"
 
-	"suteqa/etcd/pkg/adt"
+	"github.com/suteqa/etcd/pkg/adt"
 )
 
 func Example() {

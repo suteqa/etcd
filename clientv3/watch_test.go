@@ -17,7 +17,7 @@ package clientv3
 import (
 	"testing"
 
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

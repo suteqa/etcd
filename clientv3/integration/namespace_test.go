@@ -19,11 +19,11 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/namespace"
-	"suteqa/etcd/integration"
-	"suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/namespace"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestNamespacePutGet(t *testing.T) {

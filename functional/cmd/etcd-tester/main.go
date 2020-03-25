@@ -18,7 +18,7 @@ package main
 import (
 	"flag"
 
-	"suteqa/etcd/functional/tester"
+	"github.com/suteqa/etcd/functional/tester"
 
 	"go.uber.org/zap"
 )

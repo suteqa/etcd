@@ -17,9 +17,9 @@ package grpcproxy
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/proxy/grpcproxy/cache"
+	"github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/proxy/grpcproxy/cache"
 )
 
 type kvProxy struct {

@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/naming"
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/naming"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
 	gnaming "google.golang.org/grpc/naming"

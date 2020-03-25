@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"github.com/spf13/cobra"
 )

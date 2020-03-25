@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"suteqa/etcd/contrib/recipes"
+	"github.com/suteqa/etcd/contrib/recipes"
 )
 
 const (

@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/snap"
-	"suteqa/etcd/lease"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/etcdserver/api/snap"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 func ExampleKeysAPI_directory() {

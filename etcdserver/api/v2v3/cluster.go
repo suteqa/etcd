@@ -15,8 +15,8 @@
 package v2v3
 
 import (
-	"suteqa/etcd/etcdserver/api/membership"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/etcdserver/api/membership"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

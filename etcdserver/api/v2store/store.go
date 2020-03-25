@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 )

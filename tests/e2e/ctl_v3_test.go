@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/flags"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/flags"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

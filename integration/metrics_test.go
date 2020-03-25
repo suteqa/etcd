@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/etcdserver"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/transport"
 )
 
 // TestMetricDbSizeBoot checks that the db size metric is set on boot.

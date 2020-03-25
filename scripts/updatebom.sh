@@ -13,6 +13,6 @@ go get -v -u github.com/coreos/license-bill-of-materials
 echo "generating bill-of-materials.json"
 license-bill-of-materials \
     --override-file ./bill-of-materials.override.json \
-    suteqa/etcd suteqa/etcd/etcdctl > bill-of-materials.json
+    github.com/suteqa/etcd github.com/suteqa/etcd/etcdctl > bill-of-materials.json
 
 echo "generated bill-of-materials.json"

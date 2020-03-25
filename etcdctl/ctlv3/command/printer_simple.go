@@ -19,10 +19,10 @@ import (
 	"os"
 	"strings"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/snapshot"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/types"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/snapshot"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 type simplePrinter struct {

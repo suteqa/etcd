@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/traceutil"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/traceutil"
 )
 
 func (tw *watchableStoreTxnWrite) End() {

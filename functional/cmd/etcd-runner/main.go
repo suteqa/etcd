@@ -16,7 +16,7 @@
 // against a fault injected cluster.
 package main
 
-import "suteqa/etcd/functional/runner"
+import "github.com/suteqa/etcd/functional/runner"
 
 func main() {
 	runner.Start()

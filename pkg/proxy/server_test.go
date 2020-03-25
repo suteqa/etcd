@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

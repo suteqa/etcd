@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/pkg/srv"
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/srv"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

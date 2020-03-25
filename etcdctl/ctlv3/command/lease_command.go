@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	v3 "suteqa/etcd/clientv3"
+	v3 "github.com/suteqa/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

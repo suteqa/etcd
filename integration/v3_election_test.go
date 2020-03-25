@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
 )
 
 // TestElectionWait tests if followers can correctly wait for elections.

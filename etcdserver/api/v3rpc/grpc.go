@@ -18,12 +18,12 @@ import (
 	"crypto/tls"
 	"math"
 
-	"suteqa/etcd/etcdserver"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"suteqa/etcd/clientv3/credentials"
+	"github.com/suteqa/etcd/clientv3/credentials"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"

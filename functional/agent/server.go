@@ -21,9 +21,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"suteqa/etcd/embed"
-	"suteqa/etcd/functional/rpcpb"
-	"suteqa/etcd/pkg/proxy"
+	"github.com/suteqa/etcd/embed"
+	"github.com/suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

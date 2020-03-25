@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	v3 "suteqa/etcd/clientv3"
+	v3 "github.com/suteqa/etcd/clientv3"
 )
 
 // NewAlarmCommand returns the cobra command for "alarm".

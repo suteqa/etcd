@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

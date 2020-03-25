@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sync"
 
-	"suteqa/etcd/pkg/logutil"
+	"github.com/suteqa/etcd/pkg/logutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/embed"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/embed"
 )
 
 func TestEmbedEtcd(t *testing.T) {

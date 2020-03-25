@@ -15,8 +15,8 @@
 package v3rpc
 
 import (
-	"suteqa/etcd/etcdserver"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 type header struct {

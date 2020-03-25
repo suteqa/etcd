@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/auth/authpb"
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/auth/authpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestV3AuthEmptyUserGet ensures that a get with an empty user will return an empty user error.

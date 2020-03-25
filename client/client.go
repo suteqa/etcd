@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/version"
 )
 
 var (

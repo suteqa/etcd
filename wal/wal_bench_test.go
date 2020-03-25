@@ -21,7 +21,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 func BenchmarkWrite100EntryWithoutBatch(b *testing.B) { benchmarkWriteEntry(b, 100, 0) }

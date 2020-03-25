@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/version"
 )
 
 func TestServeVersion(t *testing.T) {

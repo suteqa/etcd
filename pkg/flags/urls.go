@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"strings"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 // URLsValue wraps "types.URLs".

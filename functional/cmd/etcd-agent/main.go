@@ -18,7 +18,7 @@ package main
 import (
 	"flag"
 
-	"suteqa/etcd/functional/agent"
+	"github.com/suteqa/etcd/functional/agent"
 
 	"go.uber.org/zap"
 )

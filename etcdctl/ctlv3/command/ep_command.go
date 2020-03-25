@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/pkg/flags"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

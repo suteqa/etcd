@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

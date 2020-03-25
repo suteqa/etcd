@@ -19,8 +19,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

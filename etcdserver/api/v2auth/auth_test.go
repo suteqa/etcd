@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 )

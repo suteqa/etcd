@@ -17,13 +17,13 @@ package etcdserver
 import (
 	"io"
 
-	"suteqa/etcd/etcdserver/api/snap"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/wal"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/etcdserver/api/snap"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/wal"
+	"github.com/suteqa/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

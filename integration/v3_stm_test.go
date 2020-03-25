@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
-	"suteqa/etcd/pkg/testutil"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestSTMConflict tests that conflicts are retried.

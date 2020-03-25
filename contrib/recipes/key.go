@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
 )
 
 // RemoteKV is a key/revision pair created by the client and stored on etcd

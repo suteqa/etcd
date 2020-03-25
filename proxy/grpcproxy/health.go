@@ -19,9 +19,9 @@ import (
 	"net/http"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/etcdhttp"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/etcdhttp"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 )
 

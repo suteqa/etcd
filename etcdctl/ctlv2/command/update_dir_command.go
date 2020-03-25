@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/urfave/cli"
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 // NewUpdateDirCommand returns the CLI command for "updatedir".

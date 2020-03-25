@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"suteqa/etcd/pkg/logutil"
+	"github.com/suteqa/etcd/pkg/logutil"
 
 	"google.golang.org/grpc/grpclog"
 )

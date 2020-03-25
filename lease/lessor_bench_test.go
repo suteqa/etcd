@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

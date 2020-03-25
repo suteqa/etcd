@@ -17,7 +17,7 @@ package tester
 import (
 	"time"
 
-	"suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

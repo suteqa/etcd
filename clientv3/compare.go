@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 type CompareTarget int

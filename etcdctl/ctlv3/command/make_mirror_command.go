@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/mirror"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/mirror"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

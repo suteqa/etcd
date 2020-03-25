@@ -14,7 +14,7 @@
 
 package tester
 
-import "suteqa/etcd/functional/rpcpb"
+import "github.com/suteqa/etcd/functional/rpcpb"
 
 type runnerChecker struct {
 	ctype              rpcpb.Checker

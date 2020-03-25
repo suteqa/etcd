@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 // NewAuthCommand returns the cobra command for "auth".

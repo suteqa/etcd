@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

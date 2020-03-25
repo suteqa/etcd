@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
 )
 
 const downloadURL = `https://storage.googleapis.com/etcd/%s/etcd-%s-linux-amd64.tar.gz`

@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/functional/rpcpb"
-	"suteqa/etcd/raft"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/raft"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

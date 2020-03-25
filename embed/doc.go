@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"suteqa/etcd/embed"
+		"github.com/suteqa/etcd/embed"
 	)
 
 	func main() {

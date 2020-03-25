@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/contrib/recipes"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/contrib/recipes"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestBarrierSingleNode(t *testing.T) {

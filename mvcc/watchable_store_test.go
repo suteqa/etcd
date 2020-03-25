@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/lease"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/traceutil"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/traceutil"
 	"go.uber.org/zap"
 )
 

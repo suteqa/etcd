@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

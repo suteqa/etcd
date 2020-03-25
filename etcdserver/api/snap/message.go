@@ -17,8 +17,8 @@ package snap
 import (
 	"io"
 
-	"suteqa/etcd/pkg/ioutil"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/pkg/ioutil"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 // Message is a struct that contains a raft Message and a ReadCloser. The type

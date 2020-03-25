@@ -19,7 +19,7 @@ package httptypes
 import (
 	"encoding/json"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 type Member struct {

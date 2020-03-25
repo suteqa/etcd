@@ -14,7 +14,7 @@
 
 package clientv3
 
-import pb "suteqa/etcd/etcdserver/etcdserverpb"
+import pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 type opType int
 

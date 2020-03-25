@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"suteqa/etcd/auth"
+	"github.com/suteqa/etcd/auth"
 )
 
 // TestStartEtcdWrongToken ensures that StartEtcd with wrong configs returns with error.

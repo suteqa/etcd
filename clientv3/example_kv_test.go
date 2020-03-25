@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 func ExampleKV_put() {

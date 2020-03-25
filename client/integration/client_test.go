@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestV2NoRetryEOF tests destructive api calls won't retry on a disconnection.

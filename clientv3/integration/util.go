@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 )
 
 // mustWaitPinReady waits up to 3-second until connection is up (pin endpoint).

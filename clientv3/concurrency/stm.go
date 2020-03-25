@@ -18,7 +18,7 @@ import (
 	"context"
 	"math"
 
-	v3 "suteqa/etcd/clientv3"
+	v3 "github.com/suteqa/etcd/clientv3"
 )
 
 // STM is an interface for software transactional memory.

@@ -2,14 +2,14 @@
 
 etcd/client is the Go client library for etcd.
 
-[![GoDoc](https://godoc.org/suteqa/etcd/client?status.png)](https://godoc.org/suteqa/etcd/client)
+[![GoDoc](https://godoc.org/github.com/suteqa/etcd/client?status.png)](https://godoc.org/github.com/suteqa/etcd/client)
 
 For full compatibility, it is recommended to vendor builds using etcd's vendored packages, using tools like `golang/dep`, as in [vendor directories](https://golang.org/cmd/go/#hdr-Vendor_Directories).
 
 ## Install
 
 ```bash
-go get suteqa/etcd/client
+go get github.com/suteqa/etcd/client
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import (
 	"time"
 	"context"
 
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 func main() {

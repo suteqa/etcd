@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 )
 
 const (

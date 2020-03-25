@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"github.com/jonboulle/clockwork"
 )

@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 // Handler for a http based key-value store backed by raft

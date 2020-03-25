@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"os"
 
-	"suteqa/etcd/pkg/expect"
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/expect"
+	"github.com/suteqa/etcd/pkg/fileutil"
 )
 
 var (

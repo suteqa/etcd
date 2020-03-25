@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/pkg/report"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"gopkg.in/cheggaaa/pb.v1"

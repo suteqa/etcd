@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

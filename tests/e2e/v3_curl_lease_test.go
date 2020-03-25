@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 func TestV3CurlLeaseGrantNoTLS(t *testing.T) {

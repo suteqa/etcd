@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/raft/confchange"
-	"suteqa/etcd/raft/quorum"
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	"github.com/suteqa/etcd/raft/confchange"
+	"github.com/suteqa/etcd/raft/quorum"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 // None is a placeholder node ID used when there is no leader.

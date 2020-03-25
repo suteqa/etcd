@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"sync"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 type urlPicker struct {

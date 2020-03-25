@@ -19,9 +19,9 @@ import (
 	"path"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/membership"
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/etcdserver/api/membership"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/pkg/pbutil"
 
 	"go.uber.org/zap"
 )

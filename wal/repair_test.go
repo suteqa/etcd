@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

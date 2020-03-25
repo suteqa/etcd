@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/auth"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/auth"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 )

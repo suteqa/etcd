@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestCtlV3Migrate(t *testing.T) {

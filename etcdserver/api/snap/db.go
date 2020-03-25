@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

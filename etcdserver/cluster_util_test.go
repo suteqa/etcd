@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

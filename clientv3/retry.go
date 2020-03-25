@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

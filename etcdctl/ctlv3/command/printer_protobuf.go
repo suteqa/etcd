@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	v3 "suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	mvccpb "suteqa/etcd/mvcc/mvccpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 type pbPrinter struct{ printer }

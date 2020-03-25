@@ -19,7 +19,7 @@ import (
 	"math"
 	"sync"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 
 	"golang.org/x/time/rate"
 )

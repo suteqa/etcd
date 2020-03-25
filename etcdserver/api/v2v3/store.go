@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 // store implements the Store interface for V2 using

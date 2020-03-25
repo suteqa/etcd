@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3rpc"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/integration"
-	mvccpb "suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/integration"
+	mvccpb "github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/version"
 
 	"google.golang.org/grpc/metadata"
 )

@@ -1,4 +1,4 @@
-module suteqa/etcd
+module github.com/suteqa/etcd
 
 go 1.13
 

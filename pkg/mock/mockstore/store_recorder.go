@@ -17,8 +17,8 @@ package mockstore
 import (
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // StoreRecorder provides a Store interface with a testutil.Recorder

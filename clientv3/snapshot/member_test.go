@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/embed"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/embed"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestSnapshotV3RestoreMultiMemberAdd ensures that multiple members

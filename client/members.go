@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"path"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 var (

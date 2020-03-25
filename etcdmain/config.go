@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"suteqa/etcd/embed"
-	"suteqa/etcd/pkg/flags"
-	"suteqa/etcd/pkg/logutil"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/embed"
+	"github.com/suteqa/etcd/pkg/flags"
+	"github.com/suteqa/etcd/pkg/logutil"
+	"github.com/suteqa/etcd/version"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

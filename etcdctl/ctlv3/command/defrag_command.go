@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/mvcc/backend"
 )
 
 var (

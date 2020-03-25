@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/pkg/traceutil"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/pkg/traceutil"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

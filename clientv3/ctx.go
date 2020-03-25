@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/version"
 	"google.golang.org/grpc/metadata"
 )
 

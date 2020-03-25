@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

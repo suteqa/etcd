@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

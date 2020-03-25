@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"suteqa/etcd/auth/authpb"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/pkg/adt"
+	"github.com/suteqa/etcd/auth/authpb"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

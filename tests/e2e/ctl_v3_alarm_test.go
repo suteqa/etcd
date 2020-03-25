@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 )
 
 func TestCtlV3Alarm(t *testing.T) {

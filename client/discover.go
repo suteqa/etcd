@@ -15,7 +15,7 @@
 package client
 
 import (
-	"suteqa/etcd/pkg/srv"
+	"github.com/suteqa/etcd/pkg/srv"
 )
 
 // Discoverer is an interface that wraps the Discover method.

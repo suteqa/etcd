@@ -18,11 +18,11 @@ import (
 	"context"
 	"sync"
 
-	"suteqa/etcd/auth"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/lease"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/pkg/traceutil"
+	"github.com/suteqa/etcd/auth"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/pkg/traceutil"
 )
 
 type authApplierV3 struct {

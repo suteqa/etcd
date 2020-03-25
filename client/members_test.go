@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 func TestMembersAPIActionList(t *testing.T) {

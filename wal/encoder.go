@@ -21,9 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"suteqa/etcd/pkg/crc"
-	"suteqa/etcd/pkg/ioutil"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/pkg/crc"
+	"github.com/suteqa/etcd/pkg/ioutil"
+	"github.com/suteqa/etcd/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

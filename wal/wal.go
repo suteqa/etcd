@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/raft"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

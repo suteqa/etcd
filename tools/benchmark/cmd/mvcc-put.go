@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"suteqa/etcd/lease"
-	"suteqa/etcd/pkg/report"
-	"suteqa/etcd/pkg/traceutil"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/pkg/report"
+	"github.com/suteqa/etcd/pkg/traceutil"
 
 	"github.com/spf13/cobra"
 )

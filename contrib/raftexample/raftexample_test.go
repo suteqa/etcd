@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 type cluster struct {

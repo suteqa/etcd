@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	"suteqa/etcd/pkg/crc"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/pkg/crc"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/wal/walpb"
 )
 
 const minSectorSize = 512

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/wal/walpb"
+	"github.com/suteqa/etcd/wal/walpb"
 )
 
 var (

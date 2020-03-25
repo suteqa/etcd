@@ -21,11 +21,11 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/pkg/mock/mockstore"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/pkg/mock/mockstore"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/raft"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 type node struct {

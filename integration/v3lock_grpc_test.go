@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "suteqa/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	lockpb "github.com/suteqa/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

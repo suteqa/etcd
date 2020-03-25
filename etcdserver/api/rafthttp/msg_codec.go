@@ -19,8 +19,8 @@ import (
 	"errors"
 	"io"
 
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 // messageEncoder is a encoder that can encode all kinds of messages.

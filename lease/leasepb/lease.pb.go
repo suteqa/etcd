@@ -23,7 +23,7 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 
-	etcdserverpb "suteqa/etcd/etcdserver/etcdserverpb"
+	etcdserverpb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	io "io"
 )

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/expect"
+	"github.com/suteqa/etcd/pkg/expect"
 )
 
 func TestCtlV3Lock(t *testing.T) {

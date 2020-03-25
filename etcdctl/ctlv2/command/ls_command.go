@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/urfave/cli"
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 func NewLsCommand() cli.Command {

@@ -28,13 +28,13 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/integration"
-	"suteqa/etcd/lease"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestMaintenanceHashKV(t *testing.T) {

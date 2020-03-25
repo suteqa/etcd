@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

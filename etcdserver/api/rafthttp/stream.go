@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	stats "suteqa/etcd/etcdserver/api/v2stats"
-	"suteqa/etcd/pkg/httputil"
-	"suteqa/etcd/pkg/transport"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/version"
+	stats "github.com/suteqa/etcd/etcdserver/api/v2stats"
+	"github.com/suteqa/etcd/pkg/httputil"
+	"github.com/suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

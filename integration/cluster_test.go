@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func init() {

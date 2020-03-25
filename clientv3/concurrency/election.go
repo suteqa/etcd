@@ -19,9 +19,9 @@ import (
 	"errors"
 	"fmt"
 
-	v3 "suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/mvcc/mvccpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 var (

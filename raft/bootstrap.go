@@ -17,7 +17,7 @@ package raft
 import (
 	"errors"
 
-	pb "suteqa/etcd/raft/raftpb"
+	pb "github.com/suteqa/etcd/raft/raftpb"
 )
 
 // Bootstrap initializes the RawNode for first use by appending configuration

@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	epb "suteqa/etcd/etcdserver/api/v3election/v3electionpb"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	epb "github.com/suteqa/etcd/etcdserver/api/v3election/v3electionpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestV3ElectionCampaign checks that Campaign will not give

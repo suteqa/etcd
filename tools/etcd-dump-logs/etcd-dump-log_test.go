@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/auth/authpb"
-	"suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/wal"
+	"github.com/suteqa/etcd/auth/authpb"
+	"github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/wal"
 	"go.uber.org/zap"
 )
 

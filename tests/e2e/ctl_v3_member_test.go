@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 func TestCtlV3MemberList(t *testing.T)          { testCtl(t, memberListTest) }

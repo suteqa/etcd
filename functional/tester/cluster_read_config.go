@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 	yaml "gopkg.in/yaml.v2"

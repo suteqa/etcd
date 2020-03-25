@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 // a network interface

@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v2store"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 type RequestV2 pb.Request

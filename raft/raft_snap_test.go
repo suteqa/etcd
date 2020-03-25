@@ -17,7 +17,7 @@ package raft
 import (
 	"testing"
 
-	pb "suteqa/etcd/raft/raftpb"
+	pb "github.com/suteqa/etcd/raft/raftpb"
 )
 
 var (

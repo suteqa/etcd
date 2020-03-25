@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"suteqa/etcd/pkg/pathutil"
+	"github.com/suteqa/etcd/pkg/pathutil"
 	"net/http"
 	"net/url"
 	"strconv"

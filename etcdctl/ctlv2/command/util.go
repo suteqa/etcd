@@ -28,8 +28,8 @@ import (
 	"syscall"
 	"time"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	"github.com/bgentry/speakeasy"
 	"github.com/urfave/cli"

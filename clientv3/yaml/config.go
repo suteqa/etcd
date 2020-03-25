@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/pkg/tlsutil"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/pkg/tlsutil"
 )
 
 type yamlConfig struct {

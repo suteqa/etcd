@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api"
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/etcdserver/api/v2http/httptypes"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/suteqa/etcd/version"
 	"go.uber.org/zap"
 )
 

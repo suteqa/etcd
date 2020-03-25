@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"suteqa/etcd/raft/quorum"
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	"github.com/suteqa/etcd/raft/quorum"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 // Changer facilitates configuration changes. It exposes methods to handle

@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 type fakeCompactable struct {

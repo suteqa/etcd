@@ -21,7 +21,7 @@ import (
 	"log"
 	"sync"
 
-	"suteqa/etcd/etcdserver/api/snap"
+	"github.com/suteqa/etcd/etcdserver/api/snap"
 )
 
 // a key-value store backed by raft

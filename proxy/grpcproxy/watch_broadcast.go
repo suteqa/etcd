@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync"
 
-	"suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 // watchBroadcast broadcasts a server watcher to many client watchers.

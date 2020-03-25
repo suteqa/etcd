@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

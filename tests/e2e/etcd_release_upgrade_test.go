@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

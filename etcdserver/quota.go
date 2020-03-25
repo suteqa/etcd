@@ -17,7 +17,7 @@ package etcdserver
 import (
 	"sync"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

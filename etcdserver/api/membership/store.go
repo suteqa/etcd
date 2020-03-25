@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"path"
 
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

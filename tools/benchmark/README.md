@@ -5,7 +5,7 @@
 ## Download and install
 To get `benchmark` from the `master` branch via `go get`:
 ```sh
-$ go get suteqa/etcd/tools/benchmark
+$ go get github.com/suteqa/etcd/tools/benchmark
 # GOPATH should be set
 $ ls $GOPATH/bin
 benchmark

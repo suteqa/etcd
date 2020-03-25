@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestMain sets up an etcd cluster if running the examples.

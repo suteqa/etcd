@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "suteqa/etcd/raft/raftpb"
+	pb "github.com/suteqa/etcd/raft/raftpb"
 )
 
 type raftLog struct {

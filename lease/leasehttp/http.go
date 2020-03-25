@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/lease"
-	"suteqa/etcd/lease/leasepb"
-	"suteqa/etcd/pkg/httputil"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/lease/leasepb"
+	"github.com/suteqa/etcd/pkg/httputil"
 )
 
 var (

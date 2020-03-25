@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestNetworkPartition5MembersLeaderInMinority(t *testing.T) {

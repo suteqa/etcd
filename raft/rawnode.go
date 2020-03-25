@@ -17,8 +17,8 @@ package raft
 import (
 	"errors"
 
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 // ErrStepLocalMsg is returned when try to step a local raft message

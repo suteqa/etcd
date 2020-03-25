@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 var (

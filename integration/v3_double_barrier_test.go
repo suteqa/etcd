@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3/concurrency"
-	"suteqa/etcd/contrib/recipes"
+	"github.com/suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/contrib/recipes"
 )
 
 func TestDoubleBarrier(t *testing.T) {

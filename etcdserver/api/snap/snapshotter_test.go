@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 	"go.uber.org/zap"
 )
 

@@ -17,9 +17,9 @@ package v3lock
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
-	"suteqa/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/etcdserver/api/v3lock/v3lockpb"
 )
 
 type lockServer struct {

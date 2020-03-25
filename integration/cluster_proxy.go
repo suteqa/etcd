@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/namespace"
-	"suteqa/etcd/proxy/grpcproxy"
-	"suteqa/etcd/proxy/grpcproxy/adapter"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/namespace"
+	"github.com/suteqa/etcd/proxy/grpcproxy"
+	"github.com/suteqa/etcd/proxy/grpcproxy/adapter"
 
 	"go.uber.org/zap"
 )

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/snap"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/etcdserver/api/snap"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/version"
 
 	"go.uber.org/zap"
 )

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

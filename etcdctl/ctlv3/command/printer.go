@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/snapshot"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/snapshot"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"github.com/dustin/go-humanize"
 )

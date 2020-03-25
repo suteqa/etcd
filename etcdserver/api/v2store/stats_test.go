@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // Ensure that a successful Get is recorded in the stats.

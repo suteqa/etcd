@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

@@ -20,10 +20,10 @@ import (
 	"io"
 	"time"
 
-	stats "suteqa/etcd/etcdserver/api/v2stats"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
+	stats "github.com/suteqa/etcd/etcdserver/api/v2stats"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 const (

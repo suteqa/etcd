@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

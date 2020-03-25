@@ -21,8 +21,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 // TestConfChangeQuick uses quickcheck to verify that simple and joint config

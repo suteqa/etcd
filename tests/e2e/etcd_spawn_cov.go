@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"time"
 
-	"suteqa/etcd/pkg/expect"
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/flags"
+	"github.com/suteqa/etcd/pkg/expect"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/flags"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

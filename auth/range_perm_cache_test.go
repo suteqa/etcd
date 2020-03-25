@@ -17,8 +17,8 @@ package auth
 import (
 	"testing"
 
-	"suteqa/etcd/auth/authpb"
-	"suteqa/etcd/pkg/adt"
+	"github.com/suteqa/etcd/auth/authpb"
+	"github.com/suteqa/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

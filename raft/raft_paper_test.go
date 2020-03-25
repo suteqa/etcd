@@ -32,7 +32,7 @@ import (
 	"sort"
 	"testing"
 
-	pb "suteqa/etcd/raft/raftpb"
+	pb "github.com/suteqa/etcd/raft/raftpb"
 )
 
 func TestFollowerUpdateTermFromMessage(t *testing.T) {

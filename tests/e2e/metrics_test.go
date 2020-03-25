@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/version"
 )
 
 func TestV3MetricsSecure(t *testing.T) {

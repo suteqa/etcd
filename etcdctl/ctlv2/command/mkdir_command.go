@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/urfave/cli"
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 // NewMakeDirCommand returns the CLI command for "mkdir".

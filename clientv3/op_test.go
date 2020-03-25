@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 // TestOpWithSort tests if WithSort(ASCEND, KEY) and WithLimit are specified,

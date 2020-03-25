@@ -21,7 +21,7 @@ Create a Config and exchange it for a Client:
 		"net/http"
 		"context"
 
-		"suteqa/etcd/client"
+		"github.com/suteqa/etcd/client"
 	)
 
 	cfg := client.Config{

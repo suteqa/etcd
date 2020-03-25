@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"suteqa/etcd/embed"
+	"github.com/suteqa/etcd/embed"
 
 	"go.uber.org/zap"
 )

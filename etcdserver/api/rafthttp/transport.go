@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/snap"
-	stats "suteqa/etcd/etcdserver/api/v2stats"
-	"suteqa/etcd/pkg/transport"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/etcdserver/api/snap"
+	stats "github.com/suteqa/etcd/etcdserver/api/v2stats"
+	"github.com/suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft/raftpb"
 
 	"github.com/xiang90/probing"
 	"go.uber.org/zap"

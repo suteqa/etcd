@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/mvcc/mvccpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 // Barrier creates a key in etcd to block processes, then deletes the key to

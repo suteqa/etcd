@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"suteqa/etcd/etcdctl/ctlv2/command"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/etcdctl/ctlv2/command"
+	"github.com/suteqa/etcd/version"
 
 	"github.com/urfave/cli"
 )

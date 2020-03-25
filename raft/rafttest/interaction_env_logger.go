@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft"
 )
 
 type logLevels [6]string

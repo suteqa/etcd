@@ -17,13 +17,13 @@ package main
 import (
 	"encoding/binary"
 	"fmt"
-	"suteqa/etcd/auth/authpb"
+	"github.com/suteqa/etcd/auth/authpb"
 	"path/filepath"
 
-	"suteqa/etcd/lease/leasepb"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/lease/leasepb"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

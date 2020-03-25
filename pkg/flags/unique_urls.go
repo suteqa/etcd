@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

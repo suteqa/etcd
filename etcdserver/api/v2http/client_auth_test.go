@@ -30,8 +30,8 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/etcdserver/api"
-	"suteqa/etcd/etcdserver/api/v2auth"
+	"github.com/suteqa/etcd/etcdserver/api"
+	"github.com/suteqa/etcd/etcdserver/api/v2auth"
 
 	"go.uber.org/zap"
 )

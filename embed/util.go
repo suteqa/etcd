@@ -17,7 +17,7 @@ package embed
 import (
 	"path/filepath"
 
-	"suteqa/etcd/wal"
+	"github.com/suteqa/etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

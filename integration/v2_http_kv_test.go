@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/transport"
 )
 
 func TestV2Set(t *testing.T) {

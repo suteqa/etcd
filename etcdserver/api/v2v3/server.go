@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api"
-	"suteqa/etcd/etcdserver/api/membership"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api"
+	"github.com/suteqa/etcd/etcdserver/api/membership"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

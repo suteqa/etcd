@@ -21,7 +21,7 @@ import (
 
 	"github.com/bgentry/speakeasy"
 	"github.com/spf13/cobra"
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 )
 
 var (

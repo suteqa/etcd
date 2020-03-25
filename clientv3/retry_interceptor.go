@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

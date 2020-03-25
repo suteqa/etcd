@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft"
 )
 
 func TestBasicProgress(t *testing.T) {

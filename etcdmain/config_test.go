@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/embed"
+	"github.com/suteqa/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

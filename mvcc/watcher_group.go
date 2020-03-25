@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/adt"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/adt"
 )
 
 var (

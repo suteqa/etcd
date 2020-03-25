@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 // WaitEvents waits on a key until it observes the given events and returns the final one.

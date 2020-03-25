@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/pkg/transport"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 func TestCtlV3MoveLeaderSecure(t *testing.T) {

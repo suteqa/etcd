@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/clientv3/snapshot"
+	"github.com/suteqa/etcd/clientv3/snapshot"
 )
 
 type jsonPrinter struct{ printer }

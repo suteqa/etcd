@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	v3 "suteqa/etcd/clientv3"
-	spb "suteqa/etcd/mvcc/mvccpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	spb "github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 var (

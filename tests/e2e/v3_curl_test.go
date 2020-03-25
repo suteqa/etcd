@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"testing"
 
-	"suteqa/etcd/auth/authpb"
-	epb "suteqa/etcd/etcdserver/api/v3election/v3electionpb"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/auth/authpb"
+	epb "github.com/suteqa/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

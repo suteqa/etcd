@@ -17,7 +17,7 @@ package v2store
 import (
 	"testing"
 
-	"suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
 )
 
 // TestEventQueue tests a queue with capacity = 100

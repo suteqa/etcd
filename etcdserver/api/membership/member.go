@@ -22,7 +22,7 @@ import (
 	"sort"
 	"time"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 // RaftAttributes represents the raft related attributes of an etcd member.

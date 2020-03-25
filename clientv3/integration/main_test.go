@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestMain(m *testing.M) {

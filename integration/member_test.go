@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestPauseMember(t *testing.T) {

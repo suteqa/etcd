@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 func NewAuthCommands() cli.Command {

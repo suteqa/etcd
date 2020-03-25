@@ -22,7 +22,7 @@ import (
 	"net"
 	"sync"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
 )
 

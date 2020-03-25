@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

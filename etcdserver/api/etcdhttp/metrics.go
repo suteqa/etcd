@@ -22,9 +22,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/raft"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/raft"
 	"go.uber.org/zap"
 )
 

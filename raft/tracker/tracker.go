@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"suteqa/etcd/raft/quorum"
-	pb "suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/quorum"
+	pb "github.com/suteqa/etcd/raft/raftpb"
 )
 
 // Config reflects the configuration tracked in a ProgressTracker.

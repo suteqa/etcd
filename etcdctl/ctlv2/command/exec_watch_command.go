@@ -22,7 +22,7 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 
 	"github.com/urfave/cli"
 )

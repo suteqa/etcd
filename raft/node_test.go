@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 // readyWithTimeout selects from n.Ready() with a 1-second timeout. It

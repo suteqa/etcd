@@ -17,9 +17,9 @@ package recipe
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
-	"suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 // DoubleBarrier blocks processes on Enter until an expected count enters, then

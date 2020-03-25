@@ -315,7 +315,7 @@
 		]
 	},
 	{
-		"project": "suteqa/etcd",
+		"project": "github.com/suteqa/etcd",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

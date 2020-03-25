@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/client"
-	"suteqa/etcd/pkg/transport"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/client"
+	"github.com/suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

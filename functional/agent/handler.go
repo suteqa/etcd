@@ -25,9 +25,9 @@ import (
 	"syscall"
 	"time"
 
-	"suteqa/etcd/functional/rpcpb"
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/proxy"
+	"github.com/suteqa/etcd/functional/rpcpb"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

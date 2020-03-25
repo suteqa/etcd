@@ -22,11 +22,11 @@ import (
 	"os"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/snapshot"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/logutil"
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/snapshot"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/logutil"
+	"github.com/suteqa/etcd/pkg/transport"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

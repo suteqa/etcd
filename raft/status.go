@@ -17,8 +17,8 @@ package raft
 import (
 	"fmt"
 
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 // Status contains information about this Raft peer and its view of the system.

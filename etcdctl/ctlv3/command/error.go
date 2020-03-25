@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/client"
+	"github.com/suteqa/etcd/client"
 )
 
 const (

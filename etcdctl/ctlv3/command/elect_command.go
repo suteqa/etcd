@@ -21,8 +21,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/concurrency"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

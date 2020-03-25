@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 )
 
 func ExampleAuth() {

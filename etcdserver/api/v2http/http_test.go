@@ -22,12 +22,12 @@ import (
 	"sort"
 	"testing"
 
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/membership"
-	"suteqa/etcd/etcdserver/api/v2error"
-	"suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/types"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/membership"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/raft/raftpb"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

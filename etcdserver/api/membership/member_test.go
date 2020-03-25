@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/pkg/types"
 )
 
 func timeParse(value string) *time.Time {

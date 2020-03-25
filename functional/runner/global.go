@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

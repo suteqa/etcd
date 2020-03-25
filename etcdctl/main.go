@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/etcdctl/ctlv2"
-	"suteqa/etcd/etcdctl/ctlv3"
+	"github.com/suteqa/etcd/etcdctl/ctlv2"
+	"github.com/suteqa/etcd/etcdctl/ctlv3"
 )
 
 const (

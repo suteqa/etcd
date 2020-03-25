@@ -18,7 +18,7 @@ import (
 	"io"
 	"os"
 
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
 )
 
 // WriteAndSyncFile behaves just like ioutil.WriteFile in the standard library,

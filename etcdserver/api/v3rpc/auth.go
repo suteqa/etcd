@@ -17,8 +17,8 @@ package v3rpc
 import (
 	"context"
 
-	"suteqa/etcd/etcdserver"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/etcdserver"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 type AuthServer struct {

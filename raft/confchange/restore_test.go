@@ -21,8 +21,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	pb "suteqa/etcd/raft/raftpb"
-	"suteqa/etcd/raft/tracker"
+	pb "github.com/suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/tracker"
 )
 
 type rndConfChange pb.ConfState

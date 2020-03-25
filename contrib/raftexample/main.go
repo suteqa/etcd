@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/raft/raftpb"
 )
 
 func main() {

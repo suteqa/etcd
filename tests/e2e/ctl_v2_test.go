@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestCtlV2Set(t *testing.T)          { testCtlV2Set(t, &configNoTLS, false) }

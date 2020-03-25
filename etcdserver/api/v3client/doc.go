@@ -19,8 +19,8 @@
 //	import (
 //		"context"
 //
-//		"suteqa/etcd/embed"
-//		"suteqa/etcd/etcdserver/api/v3client"
+//		"github.com/suteqa/etcd/embed"
+//		"github.com/suteqa/etcd/etcdserver/api/v3client"
 //	)
 //
 //	...

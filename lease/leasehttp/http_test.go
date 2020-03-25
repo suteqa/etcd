@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/lease"
-	"suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/lease"
+	"github.com/suteqa/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

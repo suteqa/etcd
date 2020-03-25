@@ -19,14 +19,14 @@ import (
 	"crypto/sha256"
 	"io"
 
-	"suteqa/etcd/auth"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/mvcc"
-	"suteqa/etcd/mvcc/backend"
-	"suteqa/etcd/raft"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/auth"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/mvcc"
+	"github.com/suteqa/etcd/mvcc/backend"
+	"github.com/suteqa/etcd/raft"
+	"github.com/suteqa/etcd/version"
 
 	"go.uber.org/zap"
 )

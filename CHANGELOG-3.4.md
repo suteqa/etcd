@@ -274,8 +274,8 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.0...v3.4.0) and 
   - [`acbuild`](https://github.com/containers/build#this-project-is-currently-unmaintained) is not maintained anymore.
   - `*.aci` files are not available from `v3.4` release.
 - Move [`"github.com/coreos/etcd"`](https://github.com/etcd-io/etcd/issues/9965) to [`"github.com/etcd-io/etcd"`](https://github.com/etcd-io/etcd/issues/9965).
-  - Change import path to `"suteqa/etcd"`.
-  - e.g. `import "suteqa/etcd/raft"`.
+  - Change import path to `"github.com/suteqa/etcd"`.
+  - e.g. `import "github.com/suteqa/etcd/raft"`.
 - Make [`ETCDCTL_API=3 etcdctl` default](https://github.com/etcd-io/etcd/issues/9600).
   - Now, `etcdctl set foo bar` must be `ETCDCTL_API=2 etcdctl set foo bar`.
   - Now, `ETCDCTL_API=3 etcdctl put foo bar` could be just `etcdctl put foo bar`.
@@ -329,19 +329,19 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.0...v3.4.0) and 
   - Previously, `Create(dirpath string, metadata []byte) (*WAL, error)`, now `Create(lg *zap.Logger, dirpath string, metadata []byte) (*WAL, error)`.
 - Remove [`pkg/cors` package](https://github.com/etcd-io/etcd/pull/9490).
 - Move internal packages to `etcdserver`.
-  - `"github.com/coreos/etcd/alarm"` to `"suteqa/etcd/etcdserver/api/v3alarm"`.
-  - `"github.com/coreos/etcd/compactor"` to `"suteqa/etcd/etcdserver/api/v3compactor"`.
-  - `"github.com/coreos/etcd/discovery"` to `"suteqa/etcd/etcdserver/api/v2discovery"`.
-  - `"github.com/coreos/etcd/etcdserver/auth"` to `"suteqa/etcd/etcdserver/api/v2auth"`.
-  - `"github.com/coreos/etcd/etcdserver/membership"` to `"suteqa/etcd/etcdserver/api/membership"`.
-  - `"github.com/coreos/etcd/etcdserver/stats"` to `"suteqa/etcd/etcdserver/api/v2stats"`.
-  - `"github.com/coreos/etcd/error"` to `"suteqa/etcd/etcdserver/api/v2error"`.
-  - `"github.com/coreos/etcd/rafthttp"` to `"suteqa/etcd/etcdserver/api/rafthttp"`.
-  - `"github.com/coreos/etcd/snap"` to `"suteqa/etcd/etcdserver/api/snap"`.
-  - `"github.com/coreos/etcd/store"` to `"suteqa/etcd/etcdserver/api/v2store"`.
+  - `"github.com/coreos/etcd/alarm"` to `"github.com/suteqa/etcd/etcdserver/api/v3alarm"`.
+  - `"github.com/coreos/etcd/compactor"` to `"github.com/suteqa/etcd/etcdserver/api/v3compactor"`.
+  - `"github.com/coreos/etcd/discovery"` to `"github.com/suteqa/etcd/etcdserver/api/v2discovery"`.
+  - `"github.com/coreos/etcd/etcdserver/auth"` to `"github.com/suteqa/etcd/etcdserver/api/v2auth"`.
+  - `"github.com/coreos/etcd/etcdserver/membership"` to `"github.com/suteqa/etcd/etcdserver/api/membership"`.
+  - `"github.com/coreos/etcd/etcdserver/stats"` to `"github.com/suteqa/etcd/etcdserver/api/v2stats"`.
+  - `"github.com/coreos/etcd/error"` to `"github.com/suteqa/etcd/etcdserver/api/v2error"`.
+  - `"github.com/coreos/etcd/rafthttp"` to `"github.com/suteqa/etcd/etcdserver/api/rafthttp"`.
+  - `"github.com/coreos/etcd/snap"` to `"github.com/suteqa/etcd/etcdserver/api/snap"`.
+  - `"github.com/coreos/etcd/store"` to `"github.com/suteqa/etcd/etcdserver/api/v2store"`.
 - Change [snapshot file permissions](https://github.com/etcd-io/etcd/pull/9977): On Linux, the snapshot file changes from readable by all (mode 0644) to readable by the user only (mode 0600).
 - Change [`pkg/adt.IntervalTree` from `struct` to `interface`](https://github.com/etcd-io/etcd/pull/10959).
-  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/suteqa/etcd/pkg/adt).
+  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/github.com/suteqa/etcd/pkg/adt).
 - Release branch `/version` defines version `3.4.x-pre`, instead of `3.4.y+git`.
   - Use `3.4.5-pre`, instead of `3.4.4+git`.
 
@@ -611,9 +611,9 @@ Note: **v3.5 will deprecate `etcd --log-package-levels` flag for `capnslog`**; `
 ### Package `pkg/adt`
 
 - Change [`pkg/adt.IntervalTree` from `struct` to `interface`](https://github.com/etcd-io/etcd/pull/10959).
-  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/suteqa/etcd/pkg/adt).
+  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/github.com/suteqa/etcd/pkg/adt).
 - Improve [`pkg/adt.IntervalTree` test coverage](https://github.com/etcd-io/etcd/pull/10959).
-  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/suteqa/etcd/pkg/adt).
+  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/github.com/suteqa/etcd/pkg/adt).
 - Fix [Red-Black tree to maintain black-height property](https://github.com/etcd-io/etcd/pull/10978).
   - Previously, delete operation violates [black-height property](https://github.com/etcd-io/etcd/issues/10965).
 

@@ -17,8 +17,8 @@ package grpcproxy
 import (
 	"context"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v3election/v3electionpb"
 )
 
 type electionProxy struct {

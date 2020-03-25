@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v3rpc"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/mvcc/mvccpb"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/mvcc/mvccpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 // TestV3WatchFromCurrentRevision tests Watch APIs from current revision.

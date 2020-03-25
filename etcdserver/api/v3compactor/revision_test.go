@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	"suteqa/etcd/pkg/testutil"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

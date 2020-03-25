@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"suteqa/etcd/etcdserver/api"
-	"suteqa/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/suteqa/etcd/etcdserver/api"
+	"github.com/suteqa/etcd/etcdserver/api/v2http/httptypes"
 )
 
 func authCapabilityHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

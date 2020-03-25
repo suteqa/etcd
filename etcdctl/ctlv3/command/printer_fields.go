@@ -17,10 +17,10 @@ package command
 import (
 	"fmt"
 
-	v3 "suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/snapshot"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
-	spb "suteqa/etcd/mvcc/mvccpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/snapshot"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
+	spb "github.com/suteqa/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

@@ -21,10 +21,10 @@ import (
 	"os"
 	"sync"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/naming"
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/naming"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

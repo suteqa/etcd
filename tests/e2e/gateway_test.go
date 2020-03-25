@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/pkg/expect"
+	"github.com/suteqa/etcd/pkg/expect"
 )
 
 var (

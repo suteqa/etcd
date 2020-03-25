@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/suteqa/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

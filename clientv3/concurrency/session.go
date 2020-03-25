@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	v3 "suteqa/etcd/clientv3"
+	v3 "github.com/suteqa/etcd/clientv3"
 )
 
 const defaultSessionTTL = 60

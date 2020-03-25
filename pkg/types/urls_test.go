@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 func TestNewURLs(t *testing.T) {

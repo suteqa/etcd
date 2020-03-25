@@ -19,8 +19,8 @@ package v2store_test
 import (
 	"testing"
 
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 type v2TestStore struct {

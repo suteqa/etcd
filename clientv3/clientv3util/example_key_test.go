@@ -18,8 +18,8 @@ import (
 	"context"
 	"log"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/clientv3/clientv3util"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/clientv3/clientv3util"
 )
 
 func ExampleKeyMissing() {

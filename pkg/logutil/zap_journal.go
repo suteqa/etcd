@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"suteqa/etcd/pkg/systemd"
+	"github.com/suteqa/etcd/pkg/systemd"
 
 	"github.com/coreos/go-systemd/v22/journal"
 	"go.uber.org/zap/zapcore"

@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/version"
 
 	"github.com/spf13/cobra"
 )

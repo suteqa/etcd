@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/integration"
-	"suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/integration"
+	"github.com/suteqa/etcd/pkg/testutil"
 )
 
 var endpoints []string

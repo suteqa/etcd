@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft"
 )
 
 // ServerStats encapsulates various statistics about an EtcdServer and its

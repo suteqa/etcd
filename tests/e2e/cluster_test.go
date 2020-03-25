@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

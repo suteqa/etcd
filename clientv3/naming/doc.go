@@ -17,8 +17,8 @@
 // To use, first import the packages:
 //
 //	import (
-//		"suteqa/etcd/clientv3"
-//		etcdnaming "suteqa/etcd/clientv3/naming"
+//		"github.com/suteqa/etcd/clientv3"
+//		etcdnaming "github.com/suteqa/etcd/clientv3/naming"
 //
 //		"google.golang.org/grpc"
 //		"google.golang.org/grpc/naming"

@@ -17,7 +17,7 @@ package adapter
 import (
 	"context"
 
-	"suteqa/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/suteqa/etcd/etcdserver/api/v3election/v3electionpb"
 
 	"google.golang.org/grpc"
 )

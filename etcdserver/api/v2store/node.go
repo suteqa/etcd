@@ -19,7 +19,7 @@ import (
 	"sort"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/v2error"
+	"github.com/suteqa/etcd/etcdserver/api/v2error"
 
 	"github.com/jonboulle/clockwork"
 )

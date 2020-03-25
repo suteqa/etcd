@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"suteqa/etcd/pkg/expect"
+	"github.com/suteqa/etcd/pkg/expect"
 )
 
 const exampleConfigFile = "../../etcd.conf.yml.sample"

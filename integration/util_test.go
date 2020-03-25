@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"suteqa/etcd/pkg/transport"
+	"github.com/suteqa/etcd/pkg/transport"
 )
 
 // copyTLSFiles clones certs files to dst directory.

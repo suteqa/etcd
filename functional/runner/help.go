@@ -25,7 +25,7 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/version"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

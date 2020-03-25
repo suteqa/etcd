@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api/v3rpc"
-	"suteqa/etcd/proxy/grpcproxy/adapter"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api/v3rpc"
+	"github.com/suteqa/etcd/proxy/grpcproxy/adapter"
 )
 
 // New creates a clientv3 client that wraps an in-process EtcdServer. Instead

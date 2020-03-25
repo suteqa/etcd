@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"suteqa/etcd/tools/benchmark/cmd"
+	"github.com/suteqa/etcd/tools/benchmark/cmd"
 )
 
 func main() {

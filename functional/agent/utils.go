@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"suteqa/etcd/pkg/fileutil"
+	"github.com/suteqa/etcd/pkg/fileutil"
 )
 
 // TODO: support separate WAL directory

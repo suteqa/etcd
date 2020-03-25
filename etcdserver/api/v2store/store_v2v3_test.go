@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"suteqa/etcd/clientv3"
-	"suteqa/etcd/etcdserver/api/v2store"
-	"suteqa/etcd/etcdserver/api/v2v3"
-	"suteqa/etcd/integration"
+	"github.com/suteqa/etcd/clientv3"
+	"github.com/suteqa/etcd/etcdserver/api/v2store"
+	"github.com/suteqa/etcd/etcdserver/api/v2v3"
+	"github.com/suteqa/etcd/integration"
 
 	"google.golang.org/grpc/grpclog"
 )

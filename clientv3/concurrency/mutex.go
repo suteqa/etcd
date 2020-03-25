@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	v3 "suteqa/etcd/clientv3"
-	pb "suteqa/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/suteqa/etcd/clientv3"
+	pb "github.com/suteqa/etcd/etcdserver/etcdserverpb"
 )
 
 // ErrLocked is returned by TryLock when Mutex is already locked by another session.

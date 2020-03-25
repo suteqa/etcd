@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"strings"
 
-	"suteqa/etcd/etcdserver"
-	"suteqa/etcd/etcdserver/api"
-	"suteqa/etcd/etcdserver/api/membership"
-	"suteqa/etcd/etcdserver/api/rafthttp"
-	"suteqa/etcd/lease/leasehttp"
-	"suteqa/etcd/pkg/types"
+	"github.com/suteqa/etcd/etcdserver"
+	"github.com/suteqa/etcd/etcdserver/api"
+	"github.com/suteqa/etcd/etcdserver/api/membership"
+	"github.com/suteqa/etcd/etcdserver/api/rafthttp"
+	"github.com/suteqa/etcd/lease/leasehttp"
+	"github.com/suteqa/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

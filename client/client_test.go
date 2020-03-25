@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"suteqa/etcd/pkg/testutil"
-	"suteqa/etcd/version"
+	"github.com/suteqa/etcd/pkg/testutil"
+	"github.com/suteqa/etcd/version"
 )
 
 type actionAssertingHTTPClient struct {

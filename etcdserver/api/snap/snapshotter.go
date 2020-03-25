@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"suteqa/etcd/etcdserver/api/snap/snappb"
-	pioutil "suteqa/etcd/pkg/ioutil"
-	"suteqa/etcd/pkg/pbutil"
-	"suteqa/etcd/raft"
-	"suteqa/etcd/raft/raftpb"
+	"github.com/suteqa/etcd/etcdserver/api/snap/snappb"
+	pioutil "github.com/suteqa/etcd/pkg/ioutil"
+	"github.com/suteqa/etcd/pkg/pbutil"
+	"github.com/suteqa/etcd/raft"
+	"github.com/suteqa/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )
